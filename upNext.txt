@@ -1,0 +1,10 @@
+I've just created the rooms, which will be in the url like so: 
+http://localhost:3000/:userId/:roomId
+Then, based off of the room id in the url, the 'messageLog' for that particular object in the rooms collection will be updated with the previous messages and the new message
+* I'm not sure that the update is completely replacing the previous information (which I want) or not
+* T
+e messages themselves aren't being saved to the rooms collection, just the time it was created (problem with the mesArr data being sent over most likely)
+* I then need to create links to the different rooms that this user can visit
+5fb4b967f46a9c053cd710a8
+5fb4a3eb1285541d50d8cc7d
+5fb5496df46a9c053cd710aa
